@@ -37,7 +37,3 @@ python python/isomorphic.py --s paper --t title
 python python/missing_number.py --nums 1 2 3 4 5 6 8 9 10 11
 python python/prime_factors.py --n 56
 ```
-
-## Контакты
-- Email: example@domain.com
-- Telegram: @example
