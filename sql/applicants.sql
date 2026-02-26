@@ -1,5 +1,5 @@
--- Applicants ranking by exam score.
--- Table: examination(id, scores)
+-- Рейтинг абитуриентов по набранным баллам.
+-- Таблица: examination(id, scores)
 
 SELECT
     id,

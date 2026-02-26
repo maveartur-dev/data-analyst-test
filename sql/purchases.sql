@@ -1,6 +1,6 @@
--- Clients with total purchases < 5000 in the last full month.
--- No subqueries, no window functions.
--- Tables: account, "transaction"
+-- Клиенты, у которых сумма покупок за последний полный месяц < 5000.
+-- Без подзапросов и оконных функций.
+-- Таблицы: account, "transaction"
 
 SELECT
     a.client_id
