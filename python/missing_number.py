@@ -1,6 +1,6 @@
-"""Find the missing number from the sequence 1..n.
+"""Find the missing number from the sequence 1..n
 
-Input contains distinct integers from 1 to n with one missing.
+Input contains distinct integers from 1 to n with one missing
 
 Example:
 nums = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11] -> 7
@@ -13,11 +13,11 @@ from typing import List
 
 
 def missing_number(nums: List[int]) -> int:
-    """Return the missing number in the range 1..n.
+    """Return the missing number in the range 1..n
 
     Approach:
-    - Use arithmetic series sum.
-    - n is inferred as len(nums) + 1.
+    - Use arithmetic series sum
+    - n is inferred as len(nums) + 1
 
     Complexity:
     - Time: O(n)

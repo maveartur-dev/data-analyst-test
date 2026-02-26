@@ -1,7 +1,7 @@
-"""Check if two strings are isomorphic.
+"""Check if two strings are isomorphic
 
 Two strings are isomorphic if each character in the first string can be
-replaced to get the second string, with a one-to-one mapping.
+replaced to get the second string, with a one-to-one mapping
 
 Example:
 s = "paper", t = "title" -> True
@@ -13,11 +13,11 @@ import argparse
 
 
 def is_isomorphic(s: str, t: str) -> bool:
-    """Return True if strings s and t are isomorphic.
+    """Return True if strings s and t are isomorphic
 
     Approach:
-    - Maintain forward and backward mappings for bijection.
-    - Verify consistency for each character pair.
+    - Maintain forward and backward mappings for bijection
+    - Verify consistency for each character pair
 
     Complexity:
     - Time: O(n)

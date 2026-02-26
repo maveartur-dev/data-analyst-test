@@ -1,4 +1,4 @@
-"""Compute prime factorization of a positive integer.
+"""Compute prime factorization of a positive integer
 
 Example:
 n = 56 -> [2, 2, 2, 7]
@@ -11,11 +11,11 @@ from typing import List
 
 
 def prime_factors(n: int) -> List[int]:
-    """Return list of prime factors of n.
+    """Return list of prime factors of n
 
     Approach:
-    - Divide by 2 while possible.
-    - Then trial divide by odd numbers up to sqrt(n).
+    - Divide by 2 while possible
+    - Then trial divide by odd numbers up to sqrt(n)
 
     Complexity:
     - Time: O(sqrt(n)) in worst case
